@@ -1,0 +1,57 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height:100%
+}
+
+body{
+    background-color:pink;    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card{
+    background: whitesmoke;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+#numb{
+    font-size:100px;
+}
+.card button{
+    padding: 10px 35px;
+    margin: 0 5px;
+    color:black;
+    font-size: larger;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+#decrement{
+    background: lightcoral;
+}
+#decrement:hover{
+    background: lightpink;
+    font-size: 30px;
+}
+#reset{
+    background:red;
+}
+#reset:hover{
+    font-size: 30px;
+}
+#increment{
+    background: sienna;
+}
+#increment:hover{
+    background: sandybrown;
+    font-size: 30px;
+}
